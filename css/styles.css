@@ -14,6 +14,7 @@
 .grid-theme{
     display:grid;
     grid-template-columns: 1fr 5fr;
+    gap:20px;
     grid-template-areas: 
     'aside header'
     'aside section'
@@ -23,7 +24,6 @@
 
 .item-1{
     grid-area: header;
-    margin-top:30px;
     display:flex;
     justify-content: space-between;
     align-items: center;
@@ -34,6 +34,7 @@
 .item-3{
     grid-area:aside;
     background-color:#222222;
+ 
 }
 .item-4{
     grid-area:article;
@@ -102,12 +103,25 @@
 }
 .flex{
     display:flex;
-    align-items: center;
+     align-items: center; 
 }
-span{
+.pro{
     color:#FF2288;
     font-size:16px;
     padding-right:10px;
+}
+.dott{
+    position:absolute;
+    top: -2px;
+    left:15px;
+   width:10px;
+   height:10px;
+   border-radius:50%;
+   background-color: #FF2288; 
+}
+
+.header-images{
+    position:relative;
 }
 .upload{
     color:#FFFFFF;
@@ -161,4 +175,67 @@ span{
 }
 .filter-text {
     margin-left: 15px;
+}
+
+h2{
+    font-size:24px;
+    color:#ffffff;
+}
+.menu-bar{
+    width:26px;
+    height:11px;
+}
+.aside-title{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top:42px;
+    padding-bottom:106px;
+}
+
+
+.aside-nav,.aside-ul,.aside-li{
+    display:flex;
+    justify-content: space-around;
+    /* align-items: center;  */
+   
+}
+.aside-ul{
+   flex-direction: column;
+}
+.aside-li{
+    align-items: center;
+    margin-bottom:54px;
+    
+}
+.home{
+    width:24px;
+    height:24px;
+    margin-left:15px;
+    cursor:pointer;
+   
+     
+}
+.home-link{
+    color:#ffffff;
+    padding:18px 30px;
+   
+}
+.design{
+    background-color:#FF2288;
+    border-radius:12px;
+    max-width:259px;
+    width:100%;
+    
+}
+.design:hover{
+    background-color:brown;
+    transition: 0.9s;
+}
+.aside-img{
+    width:24px;
+    height:24px;
+    margin-right:8px;
+    margin-left:8px;
+    cursor:pointer;
 }
