@@ -4,16 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--dont-forget meta tags-->
-    <link  rel="stylesheet"  href="./fonts/font.css">
+		<meta property="og:type" content="Midterm" />
+		<meta property="og:title" content="About Design today" />
+		<meta property="og:description" content="Design today" />
+		<meta property="og:image" content="./image/fb.svg" />
+        <meta name="twitter:card" content="design"></meta>
+        <meta name="twitter:title" content="About Design today" />
+		<meta name="twitter:description" content="Design today" />
+		<meta name="twitter:image" content="./image/twitter.svg" />
+    <!--fooonts!!!-->
+    <link  rel="stylesheet"  href="./fonts/styles.css">
     <link rel="stylesheet" href="./css/styles.css">
     <title>Design Today</title>
 </head>
 <body>
-    <!--fontebi !!!-->
     <main  class="container">
         <div class="grid-theme">
         <header class="item-1">
+           
                 <div class="flex form-wrapper">
                     <form class="flex form" action="#">
                         <div class="search-wrapper">
@@ -35,19 +43,20 @@
                    <a class="next-page" href="second-page.html"> <img class="icon-man" src="./image/someone.png" alt="icon-man"></a>
                     <button class="upload" type="submit">UPLOAD</button>
                 </div>
-              
+             
         </header>
         <section class="item-2">
+         
             <div class="nav-flex">
                 <nav>
                   <ul class="section-ul">
-                      <li><a class="all" href="#">All</a></li>
-                      <li><a class="list" href="#">Web design</a></li>
-                      <li><a class="list" href="#">3D</a></li>
-                      <li><a class="list" href="#">App design</a></li>
-                      <li><a class="list" href="#">Animation</a></li>
-                      <li><a class="list" href="#">Illustration</a></li>
-                      <li><a class="list" href="#">Typography</a></li>
+                      <li class="section-li"><a class="all" href="#">All</a></li>
+                      <li  class="section-li"><a class="list" href="#">Web design</a></li>
+                      <li  class="section-li"><a class="list" href="#">3D</a></li>
+                      <li  class="section-li"><a class="list" href="#">App design</a></li>
+                      <li  class="section-li"><a class="list" href="#">Animation</a></li>
+                      <li  class="section-li"><a class="list" href="#">Illustration</a></li>
+                      <li  class="section-li"><a class="list" href="#">Typography</a></li>
                   </ul>
                  </nav>
               <div>
@@ -90,7 +99,7 @@
                       <img class="abs-img"  src="./image/heart.png">
                    </div>
           </div>
-          <div class="section-image">
+          <div class="section-image media">
             <img class="main-images" src="./image/image-5.png" alt="image-5">
             <p class="section-text">Live streaming application for gamers.</p>
                <div class="abs-div hide">
@@ -114,7 +123,7 @@
                  <img class="abs-img"  src="./image/heart.png">
                </div>
           </div>
-          <div class="section-image">
+          <div class="section-image media">
             <img class="main-images" src="./image/image-8.png" alt="image-8">
             <p class="section-text">Live streaming application for gamers.</p>
                <div class="abs-div hide">
@@ -129,14 +138,16 @@
         </section>
 
         <aside class="item-3">
+            <div class="media">
             <div class="aside-title">
                  <div>
-                     <h2>design.<span>today</span></h2>
+                     <h2>design.<span class="today">today</span></h2>
                  </div>
                  <div class="menu-bar">
-                     <img src="./image/menu-bar.svg" alt="menu-bar">
+                     <img class="burger" src="./image/menu-bar.svg" alt="menu-bar">
                  </div>
             </div>
+           
             <div class="bar-parent">
                 <nav class="aside-nav">
                     <ul class="aside-ul">
@@ -173,6 +184,7 @@
                     </ul>
                 </nav>
              </div>  
+            
              <div class="aside-followers">
                      <h3>FOLLOWING</h3>
                      <nav class="follow-nav">
@@ -211,8 +223,55 @@
                      </nav>
                      <h3 class="load">Load more (15)</h3>
              </div>
+             </div>
+             <div class="aside-mob">
+                 <div class="for-mob">
+                    <h1>design.today</h1>
+                    <p class="for-hover">Hover here for menu</p>
+                 </div>
+                 <div class="for-mob">
+                   <img  class="burger" src="./image/menu-bar.svg" alt="burger-bar">
+                 </div>
+                
+             </div>
+             <div class="hidden">
+                <nav class="aside-nav">
+                    <ul class="aside-ul">
+                        <li class="aside-li">
+                            <a class="aside-link" href="#">
+                                <img class="aside-img" src="./image/home.svg" alt="logo">
+                                <p class="aside-text">Home</p>
+                            </a>
+                        </li>
+                        <li class="aside-li">
+                            <a class="aside-link" href="#">
+                                <img class="aside-img" src="./image/explore.png" alt="logo">
+                                <p class="aside-text">Explore</p>
+                            </a>
+                        </li>
+                        <li class="aside-li">
+                            <a class="aside-link" href="#">
+                                <img class="aside-img" src="./image/folders.png" alt="logo">
+                                <p class="aside-text">Folders</p>
+                            </a>
+                        </li>
+                        <li class="aside-li">
+                            <a class="aside-link" href="#">
+                                <img class="aside-img" src="./image/favourites.png" alt="logo">
+                                <p class="aside-text">Favourites</p>
+                            </a>
+                        </li>
+                        <li class="aside-li">
+                            <a class="aside-link" href="#">
+                                <img class="aside-img" src="./image/activities.png" alt="logo">
+                                <p class="aside-text">Activites</p>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+             </div>
         </aside>
-        <article class="item-4">
+         <article class="item-4">
             <div class="top-designers">
                 <div>
                     <h4>Top Designers</h4>
@@ -287,7 +346,7 @@
                      <p class="footer-text">Weekly Warm-Up</p>
                      <p class="footer-text">Code of conduct</p>
                 </div>
-                <div class="footer-div">
+                <div class="footer-div media">
                     <h5>
                         Hire designers
                     </h5>
@@ -301,7 +360,7 @@
                     <p class="footer-text">Advertise with us</p>
                    
                </div>
-               <div class="footer-div">
+               <div class="footer-div media">
                    <h5>
                       Company
                    </h5>
@@ -337,7 +396,8 @@
                 <img class="logo" src="./image/twitter.svg" alt="twitter-logo">
              </div>
              <div class="academy">
-               <p><span>for</span>Smartacademy</p>
+               
+               <p class="smartacademy"> <span class="smart">for</span> Smartacademy</p>
              </div>
           </div>
             
